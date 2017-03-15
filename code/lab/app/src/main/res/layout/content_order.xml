@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/allOrderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获得全部订单" />
+    <Button
+        android:id="@+id/UndeliveredOrderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获得未配送订单" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#dedcd2"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_margin="0.5dip"
+            android:background="#dedcd2" >
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="ID"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:background="#ffffff"
+                android:text="Longitude"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:background="#ffffff"
+                android:text="latitude"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="status"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="shop"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="user"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="client"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#dedcd2"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_margin="0.5dip"
+            android:background="#dedcd2" >
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="#ffffff"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="#ffffff"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="#ffffff"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="#ffffff"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="#ffffff"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="#ffffff"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dip"
+                android:background="#ffffff"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
